@@ -1,0 +1,14 @@
+.Footer{
+    background: #141414;
+    position: relative;
+}
+
+.Footer-text{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+    color: #FDF7EC;
+}

@@ -1,0 +1,52 @@
+.step{
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #141414;
+}
+
+.highlight{
+    background: #141414;
+    width: 350px;
+    margin: 10px 10px 10px 200px;
+    padding: 0.2px;
+}
+
+.highlight p{
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.X {
+    background: #141414;
+    width: 50px;
+    margin: 10px 10px 20px 20px;
+    padding: 0.2px;
+    color: #FFFFFF;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    width: 600px
+}
+
+@media screen and (max-width: 768px) {
+    .highlight{
+        background: #141414;
+        width: 70%;
+        margin: 10px 10px 10px 20px;
+        padding: 0.2px;
+    }
+    .desc{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+}

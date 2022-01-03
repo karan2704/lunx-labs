@@ -1,0 +1,60 @@
+.Container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.Join{
+    background: #141414;
+    background-clip: content-box;
+    margin: 10px;
+    border: 10px solid hsl(0, 0%, 8%);
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.Join-text{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 120px;
+    color: #FDF7EC;
+    padding-left: 20px;
+}
+
+.Steps{
+    margin-top: 20px;
+    background: #FDF7EC;
+    width: 50%;
+    text-align: center;
+    height: 440px;
+    padding: 10px;
+    border: 10px solid #141414;
+}
+
+@media screen and (max-width: 1025px) {
+    .Container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .Join{
+        background: #141414;
+        background-clip: content-box;
+        border: 10px solid hsl(0, 0%, 8%);
+        width: 85%;
+        text-align: left;
+    }
+    .Steps{
+        margin-top: 20px;
+        background: #FDF7EC;
+        width: 87%;
+        text-align: center;
+        height: 440px;
+        padding: 10px;
+        border: 15px solid #141414;
+    }
+  }

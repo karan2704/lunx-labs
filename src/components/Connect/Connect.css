@@ -1,0 +1,27 @@
+.Connect{
+    background: #141414;
+    position: relative;
+    width: 100%;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.Connect-text{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 400px;
+    color: #FDF7EC;
+}
+
+@media screen and (max-width: 768px) {
+    .Connect{
+        background: #FDF7EC;
+    }
+    .Connect-text{
+        color: #141414;
+    }
+}

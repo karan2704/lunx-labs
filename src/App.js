@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import Cover from './components/Cover/Cover'
+import Break from './components/Break/Break';
+import Info from './components/Info/Info'
+import Launch from './components/Launch/Launch'
+import Join from './components/Join/Join';
+import Paper from './components/Paper/Paper'
+import Connect from './components/Connect/Connect';
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cover />
+      <Break />
+      <Info />
+      <Break />
+      <Launch />
+      <Break />
+      <Join />
+      <Break />
+      <Paper />
+      <Break />
+      <Connect />
+      <Break />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+/* Crafting the Finest Quality Tokens that are Not Fungible, Since 2021 */
+

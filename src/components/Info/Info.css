@@ -1,0 +1,34 @@
+
+
+/* Menu */
+.Info{
+    position: relative;
+    width: 100%;
+    background:url("https://image.shutterstock.com/image-vector/poo-seamless-pattern-cartoon-isolated-260nw-1014630976.jpg")rgba(19, 19, 19, 0.85);
+    padding-top:40px;
+    padding-bottom:40px;
+  background-blend-mode: multiply;
+}
+/* Note: backdrop-filter has minimal browser support */
+
+
+.info-text{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 500px;
+    color: #FDF7EC;
+}
+
+@media screen and (max-width: 768px) {
+  .Info{
+    position: relative;
+    width: 100%;
+    background:#141414;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+}

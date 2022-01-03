@@ -1,0 +1,32 @@
+/* Rectangle 1125 */
+.Launch{
+    position: relative;
+    width: 100%;
+    background: #FF6B00;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+/* Schitköyn’s™ NFT ICO launching January, 2022. */
+
+.Launch-text{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+    color: #FDF7EC;
+}
+
+.Launch-subtext{
+    font-family: Oldenburg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0;
+    text-align: center;
+
+    color: #FDF7EC;
+}
+

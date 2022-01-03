@@ -1,0 +1,7 @@
+.rect{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin: 5px 0;
+    background: #141414;
+}

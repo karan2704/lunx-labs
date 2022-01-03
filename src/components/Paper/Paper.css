@@ -1,0 +1,49 @@
+.Paper{
+    position: relative;
+    background: #FDF7EC;
+}
+
+.Paper-text{
+font-family: Oldenburg;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 50px;
+text-align: center;
+color: #141414;
+display: inline-block;
+}
+
+.Paper-img{
+    height: 80px;
+    width: auto;
+    float: right;
+    right: 20%;
+    position: absolute;
+}
+
+.down-arrow{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Paper{
+        align-items: center;
+        background: #141414;
+    }
+    .Paper-text{
+        color: #FDF7EC;
+    }
+    .Paper-img{
+        right: 45%;
+        position: relative;
+    }
+    .right-arrow{
+        display: none;
+    }
+    .down-arrow{
+        display: inline-block;
+        margin: 10px;
+    }
+}
